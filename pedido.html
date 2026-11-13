@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livraria e biblioteca: pedido</title>
+  <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+  <header>
+    <h1>✮ FAÇA SEU PEDIDO ✮</h1>
+     <nav>
+            <a href="livros.html" class="linkfix" target="_blank">Livros</a>
+            <a href="pedido.html" class="linkfix" target="_blank">Fazer pedido</a>
+
+        </nav>
+  </header>
+  <br>
+  <main>
+       <h2>✮ Se deseja comprar</h2>
+ 
+    <p>Preencha o formulário com seus dados e em seguida <a href="#formulario" class="link">escolha seus livros</a></p>
+  <section class="sessaodadoscom">
+    <form>
+     <label for="nome" class="label">Nome:</label>
+     <input type="text" id="nome" name="nome">
+     <br>
+     
+     <label for="email" class="label">Email:</label>
+     <input type="email" id="email" name="email">
+     <br>
+     
+     <label for="senha" class="label">Senha:</label>
+     <input type="password" id="senha" name="senha">
+     <br>
+     
+     <label for="telefone" class="label">Telefone:</label>
+     <input type="tel" id="telefone" name="telefone">
+     <br>
+     
+    <label for="numero" class="label">Número do pedido:</label>
+    <input type="number" id="numero" name="numero">
+    <br>
+  
+    <button type="submit" class="botaodadoscom">Enviar</button>
+   </form>
+
+  </section>
+   <br>
+  <section class="sessaotab">
+    <form id="formulario">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Selecionar livros</th>
+          </tr>
+          <tr>
+            <th>Livro</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro1">Assistente do vilão - 3 volumes</td>
+            <td>R$170,90</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro2">Amor em campo - único</td>
+            <td>R$34</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro3">O experimento do amor - único</td>
+            <td>R$34,90</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro4">Powerless - 3 volumes</td>
+            <td>R$209</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro5">Legend - 3 volumes</td>
+            <td>R$110</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro6">O que o rio sabe - 2 volumes</td>
+            <td>R$90,99</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro7">Caraval - 3 volumes</td>
+            <td>R$210</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="livro" value="livro8">Divinos Rivais - 2 volumes</td>
+            <td>R$70,90</td>
+          </tr>
+           <tr>
+            <td><input type="checkbox" name="livro" value="livro9">O Príncipe Cruel - 3 volumes</td>
+            <td>R$219</td>
+          </tr>
+          <tr>
+        
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><label for="numeroped">Número do pedido:</label></td>
+            <td><input type="number" id="numeroped" name="numeroped"></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <button class="botaotabelacom" type="submit">Enviar pedido</button>
+
+    </form>
+
+  </section>
+
+  <br>
+  <br>
+  <h2>✮ Pegar emprestado</h2>
+ <section class="sessaodadosem">
+  <form>
+    <label for="nomes" class="label">Nome:</label>
+    <input type="text" id="nomes" name="nomes">
+    <br>
+    <label for="emails" class="label">Email:</label>
+    <input type="email" id="emails" name="emails">
+    <br>
+    <label for="senhas" class="label">Senha:</label>
+    <input type="password" id="senhas" name="senhas">
+    <br>
+    <label for="data" class="label">Data de empréstimo: ( retirar na biblioteca )</label>
+    <input type="date" id="data" name="data">
+    <br>
+    <label for="livrospegar" class="label">Quais livros vai pegar? ( no máximo 2 por vez )</label>
+    <textarea name="livrospegar" id="livrospegar" placeholder="Ex: Volume 1 e 2 - box Além do tempo"></textarea>
+
+    <button class="botaodadoscom" type="submit">Enviar ficha</button>
+
+  </form>
+ </section>
+  </main>
+</body>
+</html>

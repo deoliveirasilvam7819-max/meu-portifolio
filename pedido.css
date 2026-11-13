@@ -1,0 +1,197 @@
+body{
+    background-color: #142539de;
+}
+h1{
+    margin-top: 70px;
+    color: #EEEBDA;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+h2{
+    color: #EEEBDA;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+p{
+    color: #EEEBDA;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EEEBDA;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.linkfix{
+    color: #142539de;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sessaodadoscom{
+    max-width: 800px;
+    width: 100%;
+    margin: 30px auto;
+    background-color: #EEEBDA;
+    padding: 15px;
+    height: 100%;
+    max-height: 500px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px
+
+}
+
+table{
+    border-collapse: collapse;
+    max-width: 980px;
+    width: 100%;
+    margin: 30px auto;
+    background-color: #EEEBDA;
+    color: #142539de;
+    border-radius: 10px; 
+}
+th,td{
+    border: 2px solid #142539de;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.botaotabelacom{
+    margin: 20px auto;
+    padding: 5px 10px;
+    display: block;
+    max-width: 980px;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 50px;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: #142539de;
+    background-color: #EEEBDA;
+}
+.botaotabelacom:hover{
+    transition-property: background-color;
+    background-color: #142539de;
+    color: #EEEBDA;
+}
+.botaodadoscom{
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: #142539de;
+    background-color: #EEEBDA;
+    max-width: 800px;
+    width: 100%;
+}
+.botaodadoscom:hover{
+    transition-property: background-color;
+    background-color: #142539de;
+    color: #EEEBDA;
+}
+.label{
+    display: block;
+    max-width: 500px;
+    max-width: 100%;
+    color: #142539de;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+#nome{ 
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#email{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#telefone{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#senha{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#numero{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#numeroped{
+    max-width: 490px;
+    width: 100%;
+    height: 30px;
+}
+.sessaodadosem{
+    max-width: 800px;
+    width: 100%;
+    margin: 30px auto;
+    background-color: #EEEBDA;
+    padding: 15px;
+    height: 100%;
+    max-height: 500px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px
+}
+#nomes{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#data{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#emails{
+    display: block;
+    max-width: 790px;
+    width: 100%;
+    height: 29px
+}
+#senhas{
+   display: block;
+   max-width: 790px;
+   width: 100%;
+   height: 29px;
+}
+#livrospegar{
+   display: block;
+   max-width: 790px;
+   width: 100%;
+   height: 100px;
+}
+.link{
+    color: #EEEBDA;
+}
